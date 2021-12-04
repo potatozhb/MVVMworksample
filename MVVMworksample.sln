@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{213C407C-2E32-47FD-AD77-4C0BC9DA1924}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMCaliburnMicro", "MVVMCaliburnMicro\MVVMCaliburnMicro.csproj", "{FB44B684-CE75-4ABA-9A58-605EC9F1C6A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{213C407C-2E32-47FD-AD77-4C0BC9DA1924}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{213C407C-2E32-47FD-AD77-4C0BC9DA1924}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{213C407C-2E32-47FD-AD77-4C0BC9DA1924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB44B684-CE75-4ABA-9A58-605EC9F1C6A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB44B684-CE75-4ABA-9A58-605EC9F1C6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB44B684-CE75-4ABA-9A58-605EC9F1C6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB44B684-CE75-4ABA-9A58-605EC9F1C6A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
