@@ -4,9 +4,28 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MVVMworksample"
+        xmlns:csviewmodel="clr-namespace:MVVMworksample.ViewModel"
+        
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <csviewmodel:UsersViewModel x:Key="custmerobj" UserID="1" UserName="Joe555" 
+                                    UserJob="worker" UserAge="55" UserMarried="True"/>
+    </Window.Resources>
     <Grid>
+        <Label Content="ID:" HorizontalAlignment="Left" Margin="100,60,0,0" VerticalAlignment="Top"/>
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="100,90,0,0" VerticalAlignment="Top"/>
+        <Label Content="Age:" HorizontalAlignment="Left" Margin="100,120,0,0" VerticalAlignment="Top"/>
+        <Label Content="Job:" HorizontalAlignment="Left" Margin="100,150,0,0" VerticalAlignment="Top"/>
+        <Label Content="Married" HorizontalAlignment="Left" Margin="100,181,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="200,68,0,0" VerticalAlignment="Top" Text="{Binding UserID, UpdateSourceTrigger=PropertyChanged}" Width="107"/>
+        <TextBox Text="{Binding UserName, UpdateSourceTrigger=LostFocus}" HorizontalAlignment="Left" Margin="200,98,0,0" VerticalAlignment="Top" Width="134"/>
+        <TextBox Text="{Binding UserAge, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="200,124,0,0" VerticalAlignment="Top" Width="67"></TextBox>
+        <TextBox Text="{Binding UserJob}" HorizontalAlignment="Left" Margin="201,154,0,0" VerticalAlignment="Top" Width="106"/>
+        <Label Background="{Binding UserAgeColor}"  HorizontalAlignment="Left" Margin="293,124,0,0" VerticalAlignment="Top" Width="69" Height="22"/>
+        <CheckBox IsEnabled="{Binding UserMarried}" IsChecked="{Binding UserMarried}" HorizontalAlignment="Left" Margin="201,186,0,0" VerticalAlignment="Top"/>
+        <Button Content="Save" Command="{Binding SaveButtonCommand}" HorizontalAlignment="Left" Margin="444,112,0,0" VerticalAlignment="Top" Height="41" Width="84"/>
+        <Button Content="Update" Command="{Binding UpdateButtonCommand}" HorizontalAlignment="Left" Margin="444,173,0,0" VerticalAlignment="Top" Height="41" Width="84"/>
 
     </Grid>
 </Window>
