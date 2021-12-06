@@ -3,11 +3,13 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:map="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
         xmlns:local="clr-namespace:Test"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox Text="{Binding MyContent}" Margin="10,10,100,295"/>
+        <map:Map x:Name="myMap" Margin="10,10,10,5"></map:Map>
+        <TextBox Text="{Binding MyContent}" Margin="24,24,599,370"/>
         <Button Name="Add" Margin="554,349,10,10" Click="Add_Click"/>
     </Grid>
 </Window>

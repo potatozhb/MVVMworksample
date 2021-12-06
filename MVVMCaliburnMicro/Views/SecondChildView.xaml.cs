@@ -20,9 +20,11 @@ namespace MVVMCaliburnMicro.Views
     /// </summary>
     public partial class SecondChildView : UserControl
     {
+        
         public SecondChildView()
         {
             InitializeComponent();
+            
         }
     }
 }

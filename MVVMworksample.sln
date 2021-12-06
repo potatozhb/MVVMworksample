@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVVMworksample", "MVVMworks
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{96E691ED-6094-465B-B8A6-FB5EA248BC3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{213C407C-2E32-47FD-AD77-4C0BC9DA1924}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mapdotnet30", "Test\Mapdotnet30.csproj", "{213C407C-2E32-47FD-AD77-4C0BC9DA1924}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMCaliburnMicro", "MVVMCaliburnMicro\MVVMCaliburnMicro.csproj", "{FB44B684-CE75-4ABA-9A58-605EC9F1C6A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVVMCaliburnMicro", "MVVMCaliburnMicro\MVVMCaliburnMicro.csproj", "{FB44B684-CE75-4ABA-9A58-605EC9F1C6A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapControl.WPF", "MapControl\MapControl.WPF.csproj", "{226F3575-B683-446D-A2F0-181291DC8787}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{FB44B684-CE75-4ABA-9A58-605EC9F1C6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB44B684-CE75-4ABA-9A58-605EC9F1C6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB44B684-CE75-4ABA-9A58-605EC9F1C6A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{226F3575-B683-446D-A2F0-181291DC8787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{226F3575-B683-446D-A2F0-181291DC8787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{226F3575-B683-446D-A2F0-181291DC8787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{226F3575-B683-446D-A2F0-181291DC8787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
