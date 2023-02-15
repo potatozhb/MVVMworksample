@@ -4,7 +4,7 @@ using System.Windows.Input;
 
 namespace MVVMworksample.Commands
 {
-    //1
+    //1,2
     internal class SaveCommand:ICommand
     {
         private UsersViewModel _usersViewModel;
