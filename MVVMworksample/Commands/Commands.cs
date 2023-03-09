@@ -4,9 +4,10 @@ using System.Windows.Input;
 
 namespace MVVMworksample.Commands
 {
-    //12,33
+    //1,2
     internal class SaveCommand:ICommand
     {
+        //main submit
         private UsersViewModel _usersViewModel;
         public SaveCommand(UsersViewModel viewModelUsers)
         {
