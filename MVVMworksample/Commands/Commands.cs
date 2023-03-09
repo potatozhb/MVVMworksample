@@ -4,6 +4,7 @@ using System.Windows.Input;
 
 namespace MVVMworksample.Commands
 {
+    //1,2
     internal class SaveCommand:ICommand
     {
         //main submit
